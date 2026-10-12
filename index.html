@@ -22,17 +22,15 @@ ul{list-style:none;padding:0}li{margin:10px 0}ul a{display:flex;gap:12px;align-i
 <li><a href="14_Formation_TSI_et_sport_operationnel.html"><span>14</span>Formation continue TSI et sport opérationnel (arrêté du 27/07/2015) – habilitations, recyclages et tirs réglementaires</a></li>
 </ul></div>
 <div id="exams" hidden><button class="back" onclick="show('home')">← Accueil</button><h2>Mode examen</h2><ul>
-<li><a href="examen_aleatoire.html"><b class="xt">Aléatoire</b><small class="xi">20 questions – 5 min</small></a></li>
-<li><a href="examen_court_1.html"><b class="xt">Court n°1</b><small class="xi">30 questions – 10 min</small></a></li>
-<li><a href="examen_court_2.html"><b class="xt">Court n°2</b><small class="xi">30 questions – 10 min</small></a></li>
-<li><a href="examen_court_3.html"><b class="xt">Court n°3</b><small class="xi">30 questions – 10 min</small></a></li>
-<li><a href="examen_court_4.html"><b class="xt">Court n°4</b><small class="xi">30 questions – 10 min</small></a></li>
-<li><a href="examen_blanc_1.html"><b class="xt">Blanc n°1</b><small class="xi">80 questions – 1 h</small></a></li>
-<li><a href="examen_blanc_2.html"><b class="xt">Blanc n°2</b><small class="xi">80 questions – 1 h</small></a></li>
-<li><a href="examen_conges.html"><b class="xt">Congés n°1</b><small class="xi">40 questions – 30 min</small></a></li>
-<li><a href="examen_conges_2.html"><b class="xt">Congés n°2</b><small class="xi">40 questions – 30 min</small></a></li>
-<li><a href="examen_techniques_securite.html"><b class="xt">Techniques n°1</b><small class="xi">40 questions – 30 min</small></a></li>
-<li><a href="examen_techniques_2.html"><b class="xt">Techniques n°2</b><small class="xi">40 questions – 30 min</small></a></li>
+<li><a href="examen_aleatoire.html?n=5"><b class="xt">Examen – 5 questions</b><small class="xi">2 min 30</small></a></li>
+<li><a href="examen_aleatoire.html?n=10"><b class="xt">Examen – 10 questions</b><small class="xi">5 min</small></a></li>
+<li><a href="examen_aleatoire.html?n=20"><b class="xt">Examen – 20 questions</b><small class="xi">10 min</small></a></li>
+<li><a href="examen_aleatoire.html?n=30"><b class="xt">Examen – 30 questions</b><small class="xi">15 min</small></a></li>
+<li><a href="examen_aleatoire.html?n=40"><b class="xt">Examen – 40 questions</b><small class="xi">20 min</small></a></li>
+<li><a href="examen_aleatoire.html?n=50"><b class="xt">Examen – 50 questions</b><small class="xi">25 min</small></a></li>
+<li><a href="examen_aleatoire.html?n=60"><b class="xt">Examen – 60 questions</b><small class="xi">30 min</small></a></li>
+<li><a href="examen_aleatoire.html?n=70"><b class="xt">Examen – 70 questions</b><small class="xi">35 min</small></a></li>
+<li><a href="examen_aleatoire.html?n=80"><b class="xt">Examen – 80 questions</b><small class="xi">40 min</small></a></li>
 </ul></div>
 <script>function show(id){['home','themes','exams'].forEach(function(x){document.getElementById(x).hidden=(x!==id);});location.hash=id==='home'?'':id;}
 if(location.hash==='#themes'||location.hash==='#exams')show(location.hash.slice(1));</script>
