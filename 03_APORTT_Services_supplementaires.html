@@ -39,4 +39,4 @@ if(anchor){var b=document.createElement("button");b.id="restart";b.textContent="
 b.onclick=function(){if(confirm("Effacer toutes les réponses et recommencer à zéro ?")){clear();window.done=true;graded=true;location.reload();}};
 anchor.parentNode.insertBefore(b,anchor.nextSibling);}
 window.addEventListener("beforeunload",function(e){if(!leaving&&!isDone()&&!graded&&document.querySelector("input[type=checkbox]:checked")){e.preventDefault();e.returnValue="";return "";}});
-})();</script></body></html>
+})();</script><script data-goatcounter="https://sanarkor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
